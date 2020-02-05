@@ -16,9 +16,13 @@ h1{
 }
 img:hover{
   opacity: .5;
+  transition: 1.4s;
+  transform: rotateX(360deg);
+
 }
 p {
   font-size: 20px;
+
 }
 .p1 {}
 .p2 {
@@ -122,8 +126,10 @@ li{
 }
 .col3-1{
   border: 10px;
-  border-color: red;
-  width: 33.33%;
+  margin: 9px;
+  border-style: ridge;
+  border-color: green;
+  width: 32%;
   height: 500px;
   float: left;
   box-sizing: border-box;
@@ -165,10 +171,10 @@ background: #32ff7e;
     margin-left: 100px;
   }
   .col3-1{
-    width: 50%;
+    width: 47.5%;
   }
   .col3-1:nth-child(3){
-  width: 100%;
+  width: 97.6%;
   }
 }
 @media screen and (max-width: 480px) {
